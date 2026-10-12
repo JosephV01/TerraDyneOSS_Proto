@@ -36,6 +36,7 @@ Do not promote an interpretation to a demonstration without citing evidence.
 - Do **not** silently rewrite a published report so a later synthesis looks consistent.
 - Corrections: append a dated note or add `CORRECTION.md` / changelog entry; leave original text readable.
 - Syntheses link sources with **relative** repo paths.
+- Public ledger: [`../05_Documentary_History/HISTORY.md`](../05_Documentary_History/HISTORY.md) lists **substantive** publication events only; commits that solely update that ledger are excluded (see inclusion rule there).
 
 ## 5. Validation ceiling
 

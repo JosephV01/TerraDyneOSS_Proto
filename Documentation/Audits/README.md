@@ -19,7 +19,7 @@ This tree does **not** replace Unreal assets or the TerraDyne plugin sources.
 | [`02_Evidence/`](02_Evidence/) | Indexes into `Results/`, findings, tests, dedupe log |
 | [`03_Syntheses/`](03_Syntheses/) | Cross-audit synthesis (1–3) |
 | [`04_Conclusions_Register/`](04_Conclusions_Register/) | Living conclusions register |
-| [`05_Documentary_History/`](05_Documentary_History/) | Publication history |
+| [`05_Documentary_History/`](05_Documentary_History/) | Publication history + dated mission reports |
 | [`PUBLICATION_CONTROL.md`](PUBLICATION_CONTROL.md) | Public push exclusions |
 | [`PROVENANCE.md`](PROVENANCE.md) | Import provenance (GF local → this repo) |
 
@@ -45,7 +45,8 @@ See [`00_Index_And_Methodology/METHODOLOGY.md`](00_Index_And_Methodology/METHODO
 1. Update files under `Documentation/Audits/` (+ evidence as needed).  
 2. Dedicated documentary commit.  
 3. Push to `origin/main` (no force-push).  
-4. Record hash + public URLs in [`05_Documentary_History/HISTORY.md`](05_Documentary_History/HISTORY.md).
+4. Record **substantive** publication events in [`05_Documentary_History/HISTORY.md`](05_Documentary_History/HISTORY.md) (corpus / material public content).  
+5. **Do not** add a HISTORY table row for commits that only edit `HISTORY.md` (HISTORY maintenance) — that creates an infinite self-reference loop. Recover those commits with `git log -- Documentation/Audits/05_Documentary_History/HISTORY.md`. See the inclusion rule in `HISTORY.md`.
 
 ## Design Gate note
 
