@@ -25,6 +25,8 @@ public:
 	void SetPaintLayer(int32 Index);
 	void CyclePaintLayer();
 	void RequestM4Test();
+	void RequestPathBTest();
+	void RequestRestoreDemoMaterial();
 	ATerraDyneDemoUnit* GetSelectedUnit() const { return SelectedUnit.Get(); }
 	ATerraDyneGardenDemoHost* GetHost() const { return Host.Get(); }
 	ETerraDyneDemoToolMode GetToolMode() const { return ToolMode; }

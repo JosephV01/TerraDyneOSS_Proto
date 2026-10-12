@@ -35,6 +35,10 @@ public:
 	bool WorldToNormalized(const FVector& WorldLocation, float& OutU, float& OutV) const;
 	FLinearColor SamplePaintColor(const FVector& WorldLocation) const;
 	FString TryApplyM4Material();
+	/** Path B probe: apply plugin master via SetMaterial so HeightMap/WeightMap bind. */
+	FString TryApplyTerraDyneMasterMaterial();
+	/** Restore host vertex-color overlay demo material (reverses Path B / M4 apply). */
+	FString RestoreDemoOverlayMaterial();
 	FString GetStatusLine() const;
 	void RunPaintSelfTest();
 	void RunLowerSelfTest();
@@ -64,6 +68,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Demo")
 	FString M4Verdict = TEXT("Not attempted");
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Demo")
+	FString PathBVerdict = TEXT("Not attempted");
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Demo")
 	double LastBrushSeconds = 0.0;
@@ -97,6 +104,7 @@ protected:
 	int32 LastColoredMeshId = 0;
 	bool bForceRecolor = true;
 	bool bM4Tried = false;
+	/** When true, host paint vertex-color overlay is not applied (M4 or Path B direct material). */
 	bool bUseNativeM4Material = false;
 	bool bPendingPaintSelfTest = false;
 	bool bPendingLowerSelfTest = false;

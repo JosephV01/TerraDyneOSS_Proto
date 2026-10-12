@@ -67,6 +67,8 @@ void UTerraDyneDemoHUD::NativeOnInitialized()
 	AddButton(Modes, TEXT("[T] Paint"), FLinearColor(0.08f, 0.28f, 0.4f))->OnClicked.AddDynamic(this, &UTerraDyneDemoHUD::OnPaintMode);
 	AddButton(Modes, TEXT("[G] Next layer"), FLinearColor(0.2f, 0.2f, 0.25f))->OnClicked.AddDynamic(this, &UTerraDyneDemoHUD::OnCycleLayer);
 	AddButton(Modes, TEXT("Test M4 MIC"), FLinearColor(0.35f, 0.12f, 0.35f))->OnClicked.AddDynamic(this, &UTerraDyneDemoHUD::OnM4);
+	AddButton(Modes, TEXT("Test TD Master"), FLinearColor(0.15f, 0.35f, 0.45f))->OnClicked.AddDynamic(this, &UTerraDyneDemoHUD::OnPathB);
+	AddButton(Modes, TEXT("Restore overlay"), FLinearColor(0.25f, 0.25f, 0.2f))->OnClicked.AddDynamic(this, &UTerraDyneDemoHUD::OnRestoreOverlay);
 
 	UHorizontalBox* Layers = WidgetTree->ConstructWidget<UHorizontalBox>(UHorizontalBox::StaticClass(), TEXT("Layers"));
 	Box->AddChildToVerticalBox(Layers);
@@ -167,6 +169,8 @@ void UTerraDyneDemoHUD::OnLower() { if (ATerraDyneDemoPlayerController* P = PC.G
 void UTerraDyneDemoHUD::OnPaintMode() { if (ATerraDyneDemoPlayerController* P = PC.Get()) P->SetToolMode(ETerraDyneDemoToolMode::Paint); }
 void UTerraDyneDemoHUD::OnCycleLayer() { if (ATerraDyneDemoPlayerController* P = PC.Get()) P->CyclePaintLayer(); }
 void UTerraDyneDemoHUD::OnM4() { if (ATerraDyneDemoPlayerController* P = PC.Get()) P->RequestM4Test(); }
+void UTerraDyneDemoHUD::OnPathB() { if (ATerraDyneDemoPlayerController* P = PC.Get()) P->RequestPathBTest(); }
+void UTerraDyneDemoHUD::OnRestoreOverlay() { if (ATerraDyneDemoPlayerController* P = PC.Get()) P->RequestRestoreDemoMaterial(); }
 void UTerraDyneDemoHUD::SelectLayer(int32 Index)
 {
 	if (ATerraDyneDemoPlayerController* P = PC.Get())

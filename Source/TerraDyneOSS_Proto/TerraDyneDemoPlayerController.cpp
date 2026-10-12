@@ -149,6 +149,22 @@ void ATerraDyneDemoPlayerController::RequestM4Test()
 	}
 }
 
+void ATerraDyneDemoPlayerController::RequestPathBTest()
+{
+	if (ATerraDyneGardenDemoHost* LiveHost = Host.Get())
+	{
+		LiveHost->TryApplyTerraDyneMasterMaterial();
+	}
+}
+
+void ATerraDyneDemoPlayerController::RequestRestoreDemoMaterial()
+{
+	if (ATerraDyneGardenDemoHost* LiveHost = Host.Get())
+	{
+		LiveHost->RestoreDemoOverlayMaterial();
+	}
+}
+
 bool ATerraDyneDemoPlayerController::TraceUnderCursor(FHitResult& OutHit) const
 {
 	UWorld* World = GetWorld();

@@ -27,6 +27,8 @@ protected:
 	UFUNCTION() void OnPaintMode();
 	UFUNCTION() void OnCycleLayer();
 	UFUNCTION() void OnM4();
+	UFUNCTION() void OnPathB();
+	UFUNCTION() void OnRestoreOverlay();
 	UFUNCTION() void OnLayer0();
 	UFUNCTION() void OnLayer1();
 	UFUNCTION() void OnLayer2();

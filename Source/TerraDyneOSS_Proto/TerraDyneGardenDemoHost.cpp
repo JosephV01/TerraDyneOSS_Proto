@@ -674,6 +674,110 @@ FString ATerraDyneGardenDemoHost::TryApplyM4Material()
 	return M4Verdict;
 }
 
+FString ATerraDyneGardenDemoHost::TryApplyTerraDyneMasterMaterial()
+{
+	static const TCHAR* TerraDyneMasterPath =
+		TEXT("/TerraDyne/Materials/VHFM/M_TerraDyne_Master.M_TerraDyne_Master");
+
+	ATerraDyneChunk* LiveChunk = Chunk.Get();
+	if (!LiveChunk)
+	{
+		PathBVerdict = TEXT("Path B FAIL — pas de chunk");
+		LastOperation = PathBVerdict;
+		return PathBVerdict;
+	}
+
+	UMaterialInterface* Master = LoadObject<UMaterialInterface>(nullptr, TerraDyneMasterPath);
+	if (!Master)
+	{
+		PathBVerdict = TEXT("Path B BLOCKED — M_TerraDyne_Master introuvable sous /TerraDyne/Materials/VHFM/");
+		LastOperation = PathBVerdict;
+		UE_LOG(LogTerraDyneGardenDemo, Error, TEXT("%s"), *PathBVerdict);
+		return PathBVerdict;
+	}
+
+	bool bDeclaresHeightMap = false;
+	bool bDeclaresWeightMap = false;
+	TArray<FMaterialParameterInfo> TexInfos;
+	TArray<FGuid> TexIds;
+	Master->GetAllTextureParameterInfo(TexInfos, TexIds);
+	for (const FMaterialParameterInfo& Info : TexInfos)
+	{
+		if (Info.Name == TEXT("HeightMap"))
+		{
+			bDeclaresHeightMap = true;
+		}
+		if (Info.Name == TEXT("WeightMap"))
+		{
+			bDeclaresWeightMap = true;
+		}
+	}
+
+	if (!bDeclaresHeightMap || !bDeclaresWeightMap)
+	{
+		PathBVerdict = FString::Printf(
+			TEXT("Path B BLOCKED — M_TerraDyne_Master chargeable mais paramètres manquants (HeightMap=%s WeightMap=%s). Aucun remplacement improvisé."),
+			bDeclaresHeightMap ? TEXT("yes") : TEXT("no"),
+			bDeclaresWeightMap ? TEXT("yes") : TEXT("no"));
+		LastOperation = PathBVerdict;
+		UE_LOG(LogTerraDyneGardenDemo, Error, TEXT("%s"), *PathBVerdict);
+		return PathBVerdict;
+	}
+
+	LiveChunk->SetMaterial(Master);
+	AppliedMeshMaterial = Master;
+	// Reuse overlay-suppress flag so RecolorMeshFromPaint does not fight the TD master.
+	bUseNativeM4Material = true;
+	if (LiveChunk->DynamicMeshComp)
+	{
+		LiveChunk->DynamicMeshComp->SetColorOverrideMode(EDynamicMeshComponentColorOverrideMode::None);
+	}
+
+	UTexture* BoundHeight = nullptr;
+	UTexture* BoundWeight = nullptr;
+	FString SlotMatName = TEXT("null");
+	if (LiveChunk->DynamicMeshComp)
+	{
+		if (UMaterialInterface* Slot0 = LiveChunk->DynamicMeshComp->GetMaterial(0))
+		{
+			SlotMatName = Slot0->GetName();
+			Slot0->GetTextureParameterValue(FHashedMaterialParameterInfo(TEXT("HeightMap")), BoundHeight);
+			Slot0->GetTextureParameterValue(FHashedMaterialParameterInfo(TEXT("WeightMap")), BoundWeight);
+		}
+	}
+
+	const bool bHeightBound = BoundHeight != nullptr;
+	const bool bWeightBound = BoundWeight != nullptr;
+	PathBVerdict = FString::Printf(
+		TEXT("Path B APPLY — SetMaterial(%s) slot0=%s HeightMap=%s (%s) WeightMap=%s (%s). Overlay off. Validation visuelle humaine requise (FEAS §8)."),
+		TerraDyneMasterPath,
+		*SlotMatName,
+		bHeightBound ? TEXT("bound") : TEXT("NULL"),
+		BoundHeight ? *BoundHeight->GetName() : TEXT("-"),
+		bWeightBound ? TEXT("bound") : TEXT("NULL"),
+		BoundWeight ? *BoundWeight->GetName() : TEXT("-"));
+	LastOperation = PathBVerdict;
+	UE_LOG(LogTerraDyneGardenDemo, Log, TEXT("%s"), *PathBVerdict);
+
+	if (!bHeightBound || !bWeightBound)
+	{
+		UE_LOG(LogTerraDyneGardenDemo, Warning,
+			TEXT("Path B: SetMaterial ran but HeightMap/WeightMap readback incomplete (SetupGPU/HeightRT may be pending)."));
+	}
+
+	return PathBVerdict;
+}
+
+FString ATerraDyneGardenDemoHost::RestoreDemoOverlayMaterial()
+{
+	ApplyFallbackMaterial();
+	bForceRecolor = true;
+	PathBVerdict = TEXT("Path B restored — vertex-color overlay demo material via ApplyFallbackMaterial");
+	LastOperation = PathBVerdict;
+	UE_LOG(LogTerraDyneGardenDemo, Log, TEXT("%s"), *PathBVerdict);
+	return PathBVerdict;
+}
+
 void ATerraDyneGardenDemoHost::RunM4CompatSelfTest()
 {
 	TArray<FString> Lines;
@@ -751,11 +855,12 @@ FString ATerraDyneGardenDemoHost::GetStatusLine() const
 {
 	const UTerraDyneSettings* Settings = GetDefault<UTerraDyneSettings>();
 	return FString::Printf(
-		TEXT("%s | GPU=%s debounce=%.2fs | M4: %s"),
+		TEXT("%s | GPU=%s debounce=%.2fs | M4: %s | PathB: %s"),
 		*LastOperation,
 		(Settings && Settings->bEnableGPUBrushes) ? TEXT("on") : TEXT("off"),
 		Settings ? Settings->CollisionDebounceTime : 0.2f,
-		*M4Verdict);
+		*M4Verdict,
+		*PathBVerdict);
 }
 
 void ATerraDyneGardenDemoHost::RunLowerSelfTest()
