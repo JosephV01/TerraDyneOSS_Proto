@@ -21,6 +21,6 @@ Sources are historical audits + `Results/` evidence. **No new technical verdict 
 | C-A04-LOAD | Real MIC+master+functions load | `DEMONSTRATED` | A04 · `m4_compat_selftest.log` | nullrhi SLOT0 null |
 | C-A04-NODES | Landscape exprs on master | `INCOMPATIBILITY_DEMONSTRATED` vs DynamicMesh adoption path | A04 | 25 direct exprs listed |
 | C-A04-PARAMS | HeightMap/WeightMap undeclared on M4 | `OBSERVED` / bus mismatch | A04 | |
-| C-A04-VIS | Visual M4 on chunk | `NOT_DEMONSTRATED` | A04 | Human PIE required |
+| C-A04-VIS | Visual M4 on chunk | `PARTIAL` | A04 · [`CAMPAIGN_C-A04-VIS_2026-10-12.md`](../01_Audits/AUDIT-04/CAMPAIGN_C-A04-VIS_2026-10-12.md) | PIE GPU: MIC Element 0 assigned; visual change (enlarged grid) + ≥30 s stable; expected M4 textures/automaterial **not** identified; grid cause **indeterminate** |
 | C-A04-RVT | RVT on DynamicMesh | `NOT_DEMONSTRATED` | A04 · A03 | |
 | C-PUB-M4ASSET | Publish `Content/M4` | Human decision open | PUBLICATION_CONTROL | Still local-only |

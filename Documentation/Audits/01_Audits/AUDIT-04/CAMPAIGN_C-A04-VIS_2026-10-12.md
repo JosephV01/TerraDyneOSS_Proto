@@ -1,20 +1,20 @@
-# Campaign C-A04-VIS — Visual M4 on DynamicMesh (preparation)
+# Campaign C-A04-VIS — Visual M4 on DynamicMesh
 
 | Field | Value |
 |---|---|
 | Date | **2026-10-12** |
 | Id | `EXT-TERRADYNE-A04-VIS` |
 | Parent audit | [`REPORT.md`](REPORT.md) (`EXT-TERRADYNE-A04`) |
-| Register item | `C-A04-VIS` — status **unchanged**: `NOT_DEMONSTRATED` |
+| Register item | `C-A04-VIS` → **`PARTIAL`** (see §C; was `NOT_DEMONSTRATED` at preparation) |
 | Proto | `C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311` |
 | Public remote | [JosephV01/TerraDyneOSS_Proto](https://github.com/JosephV01/TerraDyneOSS_Proto) |
 | Code / plugin / M4 assets / GardenFervor | **Not modified** by this mission |
-| Execution state | **`NOT_RUN`** (human PIE required) |
+| Execution state | **`EXECUTED`** (human PIE, GPU renderer) |
 | RVT (`C-A04-RVT`) | **Out of scope** — remains `NOT_DEMONSTRATED` |
 
-**Design Gate : validation visuelle uniquement ; aucune intégration technique, modification du code ou décision 08.7 autorisée.**
+**Design Gate : validation limitée aux observations PIE humaines ; aucune intégration ni modification technique autorisée.**
 
-This document prepares a **manual** Unreal Editor + PIE check. It does **not** claim that PIE was executed.
+Section **A** is the original preparation protocol (retained). Sections **B** and **C** record the human PIE closure.
 
 ---
 
@@ -28,7 +28,7 @@ This document prepares a **manual** Unreal Editor + PIE check. It does **not** c
 | `Documentation/Audits/PUBLICATION_CONTROL.md` | Exclusions (`Content/M4/`, binaries, Saved) |
 | `Documentation/Audits/PROVENANCE.md` | Import provenance |
 | `Documentation/Audits/01_Audits/AUDIT-04/REPORT.md` | A04 facts (load, Landscape nodes, nullrhi limit) |
-| `Documentation/Audits/04_Conclusions_Register/REGISTER.md` | `C-A04-VIS = NOT_DEMONSTRATED` |
+| `Documentation/Audits/04_Conclusions_Register/REGISTER.md` | `C-A04-VIS` (updated at closure) |
 | `Documentation/Audits/03_Syntheses/FINAL_SYNTHESIS.md` | Cross-audit context (A01–A03 + M4 notes) |
 | `Documentation/Audits/05_Documentary_History/HISTORY.md` | Publication ledger + inclusion rule |
 | Commit `1d3d671` | Documentary closure only (README / HISTORY rule / mission report / METHODOLOGY) — **no** proto code |
@@ -40,7 +40,7 @@ This document prepares a **manual** Unreal Editor + PIE check. It does **not** c
 | `Results/M4_NODE_COMPAT.md` | Host note |
 | Disk | `Content/Demo/L_TerraDyneGardenDemo.umap` present; `Content/M4/.../Island_UE5Preset5_Inst.uasset` present; `M4UE5MasterMat.uasset` present |
 
-Local ↔ public blob match for the seven priority docs above: **MATCH** at mission start (`main` @ `6edcb57`).
+Local ↔ public blob match for the seven priority docs above: **MATCH** at preparation (`main` @ prep tip).
 
 ### A.2 Official M4 documentation consulted
 
@@ -53,9 +53,11 @@ Primary index: [https://aaronneal.online/docs/m4/](https://aaronneal.online/docs
 | [Automaterial layers](https://aaronneal.online/docs/m4/using-the-automaterials/automaterial-layers/) | Flatland A/B, Foothills, Cliff, Beach, Wet Beach — height/slope-style automaterial look on the **demo maps** (Landscape context). |
 | [Using materials with Voxel Plugin](https://aaronneal.online/docs/m4/voxel-plugin-easy-setup/using-the-materials-with-voxel-plugin/) | Official **non-Landscape** path requires Voxel Plugin + MIC switch **Enable Voxel Plugin Support**. That path is **not** TerraDyne DynamicMesh and is **not** enabled on `Island_UE5Preset5_Inst` per A04 (`false`). |
 
-**Do not assume** a Landscape-oriented master works correctly on `UDynamicMeshComponent`. A04 already listed 25 direct Landscape expressions on `M4UE5MasterMat`. This campaign only asks whether a **real GPU render** appears after assignment.
+**Do not assume** a Landscape-oriented master works correctly on `UDynamicMeshComponent`. A04 already listed 25 direct Landscape expressions on `M4UE5MasterMat`. This campaign asks whether a **real GPU render** of the expected M4 look appears after assignment.
 
 Forums: **not consulted** (official docs answered the questions needed for the protocol).
+
+Re-checked at closure (index only): no new technical claim about DynamicMesh support is made beyond human observation.
 
 ### A.3 Identified map, actors, material, instance
 
@@ -85,6 +87,8 @@ Forums: **not consulted** (official docs answered the questions needed for the p
 | PIE session stability | Mesh remains assigned and visible for ~30+ s without crash | Single frame flash |
 
 ### A.5 Manual procedure (human)
+
+*(Unchanged protocol — executed by the human; see §B.)*
 
 **Prerequisites**
 
@@ -156,7 +160,8 @@ Forums: **not consulted** (official docs answered the questions needed for the p
 4. Human records V-code + screenshots + brief notes.  
 5. RVT is **not** claimed.
 
-A textured automaterial look (V1) is the strongest positive. V2 may be `PARTIAL` depending on notes. V3–V5 are failures of **this** assignment path — **not** automatic proof that “M4 never works anywhere.”
+A textured automaterial look (V1) is the strongest positive. V2 may be `PARTIAL` depending on notes. V3–V5 are failures of **this** assignment path — **not** automatic proof that “M4 never works anywhere.”  
+*(Closure used existing status `PARTIAL` for assignment + visual change without expected M4 look — see §C.)*
 
 ### A.7 Prerequisites / blockages to report if stuck
 
@@ -174,29 +179,79 @@ A textured automaterial look (V1) is the strongest positive. V2 may be `PARTIAL`
 
 | Field | Value |
 |---|---|
-| State | **`NOT_RUN`** |
-| Operator | *(pending human)* |
-| Date/time PIE | — |
-| Steps completed | — |
-| Observed V-code | — |
-| Assignment confirmed | — |
-| Output Log notes | — |
-| Screenshots | — |
-| Stability ≥ 30 s | — |
+| State | **`EXECUTED`** |
+| Operator | Human (project owner) |
+| Environment | Unreal Editor PIE, **GPU** renderer (not `-nullrhi`) |
+| Date | **2026-10-12** |
+| Screenshots | **None provided** |
+| Prior automated A04 self-test | Historical only — **not** substituted for this PIE |
 
-No human-verifiable PIE result has been received for this campaign. Do **not** treat A04’s automated self-test as execution of C-A04-VIS.
+### B.1 Human visual observations (operator-reported)
+
+| # | Observation | Classification |
+|---|---|---|
+| 1 | PIE starts normally | Fact (human) |
+| 2 | After **Test M4 MIC**, Element 0 of `DynamicMeshComp` shows `Island_UE5Preset5_Inst` | Fact (human) |
+| 3 | Terrain appearance **changes**: the previously seen **grid** looks **larger** after the click | Fact (human) |
+| 4 | Render remains stable for **≥ 30 seconds** | Fact (human) |
+| 5 | Expected M4 look (textures / automaterial Island-style) was **not** identified; grid alone does **not** prove those features work | Fact (human) / negative observation |
+
+**V-code (protocol §A.5):** **V6** — Other: enlarged grid appearance after MIC assignment; **not** V1 (textured automaterial).
+
+### B.2 Journal diagnostics (operator-supplied log excerpts)
+
+These are **log lines**, not independent visual proof:
+
+| Log excerpt | Note |
+|---|---|
+| `M4 load orphanEval=ok obsoleteShared=FAIL master=ok islandMic=ok` | Real MIC + master OK. `obsoleteShared=FAIL` = obsolete Maps sharedassets path (expected miss) — **not** interpreted as the cause of the grid look |
+| Journal identifies MIC `/Game/M4/Materials/PresetInstances/Island/Island_UE5Preset5_Inst` | Consistent with Element 0 assignment |
+| Master `/Game/M4/Materials/MasterMaterials/M4UE5MasterMat` | Consistent with A04 |
+| `HeightMap declared=no value=null \| WeightMap declared=no value=null` | Consistent with A04 bus mismatch — **not** demonstrated as the cause of the enlarged grid |
+| `DIAG editor Landscape-named expressions on master (direct, not functions)=25` | Consistent with A04 listing |
+| `Enable Voxel Plugin Support` = `false` | Consistent with A04 / official Voxel path not active |
+| `Enable RVT Support on Landscape Actor (Runtime Virtual Texturing)` = `false` | Consistent with A04; RVT **not** tested here |
+
+### B.3 Steps completed vs protocol
+
+Protocol §A.5 steps covering PIE start, **Test M4 MIC**, Element 0 check, ≥30 s stability, and visual classification: **completed** (per human report).  
+Screenshots (§A.5 step 11): **not provided**.
 
 ---
 
-## C. Conclusion (preparation only)
+## C. Conclusion
+
+### C.1 Qualified results
+
+| Claim | Verdict |
+|---|---|
+| MIC assignment to DynamicMesh Element 0 | **CONFIRMÉE** |
+| Visual change after assignment | **CONFIRMÉ** (enlarged grid) |
+| Visual stability ≥ 30 s | **CONFIRMÉE** |
+| Expected M4 render (textures / automaterial) | **NON DÉMONTRÉ** |
+| Full functional M4 ↔ DynamicMesh compatibility | **NON DÉMONTRÉE** |
+| Cause of enlarged grid | **INDÉTERMINÉE** |
+
+Do **not** treat the visual change as success of M4 automaterial.  
+Do **not** conclude universal incompatibility of M4 with all non-Landscape meshes from this single local outcome.  
+Do **not** claim RVT, Landscape paint layers, or Island automaterial features work on this DynamicMesh.
+
+### C.2 Register
 
 | Item | Status |
 |---|---|
-| `C-A04-VIS` | **`NOT_DEMONSTRATED`** (unchanged) |
-| `C-A04-RVT` | **`NOT_DEMONSTRATED`** (not tested) |
-| Procedure error vs material incompatibility | **Not decidable** until §B is filled |
-| General “M4 incompatible forever” | **Not claimed** |
+| `C-A04-VIS` | **`PARTIAL`** — assignment + visual change + stability observed; expected M4 textured/automaterial look **not** demonstrated |
+| `C-A04-RVT` | **`NOT_DEMONSTRATED`** (unchanged; not in this campaign) |
+| Other register rows | **Unchanged** |
 
-**Next action (human):** run §A.5, return observations (V-code + assignment check + optional screenshots). A follow-up documentary mission will update this §B/§C and, only if warranted, `REGISTER.md`.
+`PARTIAL` is an existing taxonomy status (`REGISTER.md` header). It fits better than leaving `NOT_DEMONSTRATED` (PIE was run and some facts are confirmed) or claiming `DEMONSTRATED` / `INCOMPATIBILITY_DEMONSTRATED` for the full visual M4 goal.
 
-`Design Gate : validation visuelle uniquement ; aucune intégration technique, modification du code ou décision 08.7 autorisée.`
+### C.3 What remains non-demonstrated
+
+- Island-style M4 textures / automaterial layers on DynamicMesh  
+- M4 Landscape paint-layer behaviour on DynamicMesh  
+- RVT on DynamicMesh (`C-A04-RVT`)  
+- Causal explanation of the enlarged grid  
+- Any GardenFervor integration or 08.7 decision  
+
+`Design Gate : validation limitée aux observations PIE humaines ; aucune intégration ni modification technique autorisée.`
