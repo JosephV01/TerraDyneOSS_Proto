@@ -1,4 +1,4 @@
-﻿# Documentary history
+# Documentary history
 
 ## Inclusion rule (effective 2026-10-12)
 
@@ -23,4 +23,4 @@ When a substantive commit is published, a follow-up HISTORY-only commit **may** 
 | 2026-10-12 | Import historical AUDIT-01…04 + FINAL_SYNTHESIS (+ FINDINGS/TESTS/SCOPE) from GardenFervor **local** tree (GitHub GF paths 404). Evidence indexes, conclusions register, Results classification, exact-dupe removal of three identical `Results/` twins. | [`16cc121`](https://github.com/JosephV01/TerraDyneOSS_Proto/commit/16cc121e6c0556e2e3483ea21ddf3388b49ce1a6) |
 | 2026-10-12 | Recorded the `16cc121` import hash into this HISTORY file (replaced the post-push placeholder). Diff: only `HISTORY.md` (+1/−1). Message: `docs: record historical-audits import commit in HISTORY`. | [`690892a`](https://github.com/JosephV01/TerraDyneOSS_Proto/commit/690892afba594982bb92b10d770a108f42ca5f86) |
 | 2026-10-12 | Documentary closure: verify local↔public baseline; adopt HISTORY inclusion rule (exclude HISTORY-only maintenance); publish mission report. | [`1d3d671`](https://github.com/JosephV01/TerraDyneOSS_Proto/commit/1d3d67138b113389a9bdb9b796dc9f4797017d5a) · [mission report](MISSION_2026-10-12_DOCUMENTARY_CLOSURE.md) |
-| 2026-10-12 | C-A04-VIS preparation: PIE protocol for real M4 MIC on DynamicMesh; register status unchanged (`NOT_DEMONSTRATED`); execution `NOT_RUN`. | *(hash after substantive commit — filled by excluded maintenance)* · [campaign](../01_Audits/AUDIT-04/CAMPAIGN_C-A04-VIS_2026-10-12.md) |
+| 2026-10-12 | C-A04-VIS preparation: PIE protocol for real M4 MIC on DynamicMesh; register status unchanged (`NOT_DEMONSTRATED`); execution `NOT_RUN`. | [`1e17b5f`](https://github.com/JosephV01/TerraDyneOSS_Proto/commit/1e17b5f2e1aea0a3cfa8436e6eca34f5c4ddef41) · [campaign](../01_Audits/AUDIT-04/CAMPAIGN_C-A04-VIS_2026-10-12.md) |
