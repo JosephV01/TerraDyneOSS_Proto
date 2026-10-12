@@ -1,3 +1,0 @@
-"C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Binaries\Win64\TerraDyneOSS_Proto-Win64-Shipping.pdb" "TerraDyneOSS_Proto/Binaries/Win64/TerraDyneOSS_Proto-Win64-Shipping.pdb"
-"C:\Program Files\Epic Games\UE_5.8\Engine\Content\SlateDebug\Fonts\LastResort.tps" "Engine/Content/SlateDebug/Fonts/LastResort.tps"
-"C:\Program Files\Epic Games\UE_5.8\Engine\Content\SlateDebug\Fonts\LastResort.ttf" "Engine/Content/SlateDebug/Fonts/LastResort.ttf"

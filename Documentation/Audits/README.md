@@ -4,54 +4,49 @@
 
 `TerraDyneOSS_Proto_270c311`
 
-This tree is meant to be published on the project’s **public** GitHub repository so reports can be read online with stable URLs. It does **not** replace Unreal assets or the TerraDyne plugin sources.
+Public remote: [JosephV01/TerraDyneOSS_Proto](https://github.com/JosephV01/TerraDyneOSS_Proto)
 
-**Out of scope.** GardenFervor (contracts, Design Gate, gameplay). Do not copy GF authority decisions into this tree as if they were TerraDyne proto facts.
+This tree does **not** replace Unreal assets or the TerraDyne plugin sources.
+
+**Out of scope.** GardenFervor contracts / Design Gate / gameplay. GF was a **read-only** provenance source for historical reports (see [`PROVENANCE.md`](PROVENANCE.md)).
 
 ## Layout
 
 | Path | Purpose |
 |---|---|
-| [`00_Index_And_Methodology/`](00_Index_And_Methodology/) | Conventions, proof statuses, publication rules |
-| [`01_Audits/`](01_Audits/) | One folder per audit (`AUDIT-NN/`) |
-| [`02_Evidence/`](02_Evidence/) | Pointers / curated evidence (prefer links to `Results/` when already in-repo) |
-| [`03_Syntheses/`](03_Syntheses/) | Cross-audit syntheses with relative links to sources |
-| [`04_Conclusions_Register/`](04_Conclusions_Register/) | Living register of demonstrated / partial / undemonstrated / invalidated conclusions |
-| [`05_Documentary_History/`](05_Documentary_History/) | Changelog of this documentation repository |
-| [`PUBLICATION_CONTROL.md`](PUBLICATION_CONTROL.md) | What may / may not be pushed to a public remote |
+| [`00_Index_And_Methodology/`](00_Index_And_Methodology/) | Conventions, scope, methodology |
+| [`01_Audits/`](01_Audits/) | AUDIT-01 … AUDIT-04 canonical reports |
+| [`02_Evidence/`](02_Evidence/) | Indexes into `Results/`, findings, tests, dedupe log |
+| [`03_Syntheses/`](03_Syntheses/) | Cross-audit synthesis (1–3) |
+| [`04_Conclusions_Register/`](04_Conclusions_Register/) | Living conclusions register |
+| [`05_Documentary_History/`](05_Documentary_History/) | Publication history |
+| [`PUBLICATION_CONTROL.md`](PUBLICATION_CONTROL.md) | Public push exclusions |
+| [`PROVENANCE.md`](PROVENANCE.md) | Import provenance (GF local → this repo) |
 
-Historical campaign notes already live under repo-root [`Results/`](../../Results/). **This mission does not relocate or rewrite them.** Classification and deduplication are a later step.
+Campaign notes remain under [`../../Results/`](../../Results/) and are **classified / linked**, not mass-relocated.
 
-## Naming
+## Canonical entry points
 
-- Audit id: `EXT-TERRADYNE-A01`, `A02`, … (stable) or short `AUDIT-01`
-- Folder: `01_Audits/AUDIT-01/`
-- Canonical report: `REPORT.md`
-- Optional companion: `README.md` (status table only)
-
-## Proof statuses (mandatory vocabulary)
-
-| Status | Meaning |
+| Document | URL path |
 |---|---|
-| `OBSERVED` | Fact seen in assets/logs/UI under stated conditions |
-| `EXECUTED_TEST` | A named procedure was run; result recorded |
-| `DEMONSTRATED` | Conclusion supported by cited evidence |
-| `PARTIAL` | Some aspects demonstrated; others open |
-| `NOT_DEMONSTRATED` | Insufficient evidence (≠ compatibility, ≠ incompatibility) |
-| `INCOMPATIBILITY_DEMONSTRATED` | Failure reproduced and attributed with evidence |
-| `INVALIDATED` | Prior conclusion withdrawn; cite superseding note |
+| AUDIT-01 | [`01_Audits/AUDIT-01/REPORT.md`](01_Audits/AUDIT-01/REPORT.md) |
+| AUDIT-02 | [`01_Audits/AUDIT-02/REPORT.md`](01_Audits/AUDIT-02/REPORT.md) |
+| AUDIT-03 | [`01_Audits/AUDIT-03/REPORT.md`](01_Audits/AUDIT-03/REPORT.md) |
+| AUDIT-04 | [`01_Audits/AUDIT-04/REPORT.md`](01_Audits/AUDIT-04/REPORT.md) |
+| Synthesis 1–3 | [`03_Syntheses/FINAL_SYNTHESIS.md`](03_Syntheses/FINAL_SYNTHESIS.md) |
+| Conclusions | [`04_Conclusions_Register/REGISTER.md`](04_Conclusions_Register/REGISTER.md) |
 
-**Absence of evidence is never “compatible” and never “incompatible.”**
+## Naming & proof statuses
 
-## Publication rules (for every future audit mission)
+See [`00_Index_And_Methodology/METHODOLOGY.md`](00_Index_And_Methodology/METHODOLOGY.md).
 
-1. Write or update files under `Documentation/Audits/` (and evidence as needed).
-2. Commit with an explicit documentary message.
-3. Push to the public remote (no force-push).
-4. Record the commit hash and **exact public URLs** of the published files in the mission report and in `05_Documentary_History/HISTORY.md`.
+## Publication rules
 
-See also [`00_Index_And_Methodology/METHODOLOGY.md`](00_Index_And_Methodology/METHODOLOGY.md).
+1. Update files under `Documentation/Audits/` (+ evidence as needed).  
+2. Dedicated documentary commit.  
+3. Push to `origin/main` (no force-push).  
+4. Record hash + public URLs in [`05_Documentary_History/HISTORY.md`](05_Documentary_History/HISTORY.md).
 
 ## Design Gate note
 
-Creation of this documentary frame and (when authorized) the public GitHub host only. No prototype gameplay/design change. No GardenFervor modification.
+Documentary consolidation of the TerraDyne prototype host only. No prototype design/tech change. GardenFervor unmodified.

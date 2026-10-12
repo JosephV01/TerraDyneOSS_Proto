@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>02A2DC34416DDFFC09AB9C857C6FEF6E</ExecutionGuid>
+<CrashGUID>UECC-Windows-98CEC0F6414E5460AEAB0AB2FE9C2259_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000000</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>32468</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-TerraDyneOSS_Proto</GameName>
+<ExecutableName>TerraDyneOSS_Proto-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.8.3-58210709+++UE5+Release-5.8</EngineVersion>
+<EngineCompatibleVersion>5.8.3-58210709+++UE5+Release-5.8</EngineCompatibleVersion>
+<CommandLine> -d3d11 -windowed -ResX=1280 -ResY=720</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>fr-FR</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.8-CL-58210709</BuildVersion>
+<Symbols>**UE5*Release-5.8-CL-58210709-Win64-Shipping</Symbols>
+<IsUERelease>true</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Packaged/Win64Shipping/TerraDyneOSS_Proto/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Packaged/Win64Shipping/</RootDir>
+<MachineId>05E62C462AD342EEA9D5F0A72C11541A</MachineId>
+<LoginId>05e62c462ad342eea9d5f0a72c11541a</LoginId>
+<EpicAccountId>5eaccab314b04593a85bc8ad759f9c06</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>12</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i7-12700K</Misc.CPUBrand>
+<Misc.CPUModelID>26994</Misc.CPUModelID>
+<Misc.CPUMicrocodeRevision>44</Misc.CPUMicrocodeRevision>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3060</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.9457]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34084524032</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>47506296832</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 4cbce2f         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba80e4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba4f22         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125e0af         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141b32e         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141b27d         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141bd98         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141bca8         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba6b79         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 344d228         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b65e70         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b7103c         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32ad1d7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1251a88         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125e0af         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1258051         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c18f9         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c1af7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</PCallStack>
+<PCallStackHash>9CFB78645D9312E95AF0FEABB83E712EF10FED31</PCallStackHash>
+<Threads><Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 1610c4          
+                        KERNELBASE 0x00007ffbca440000 + b67d4           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141fbab         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12ba94b         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12ba108         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b7600a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b72e7e         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b733c0         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 2a36400         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3109203         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3225edc         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 2a125c8         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 4646ed4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 463effc         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 463f06a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 46404c3         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 4647c44         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 769f472         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25580</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25208</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16620</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29684</ThreadID>
+<ThreadName>Background Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 161444          
+                             ntdll 0x00007ffbcd240000 + d3924           
+                        KERNELBASE 0x00007ffbca440000 + 8bb01           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db827         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32896</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16824</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31172</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125187b         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125bd4d         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b163         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15524</ThreadID>
+<ThreadName>Foreground Worker (Standby #0)</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 33854c1         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32228</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 161914          
+                        KERNELBASE 0x00007ffbca440000 + 22773           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 745ee26         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 745cf7d         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 2121900         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 21212db         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 2121349         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33408</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 6643986         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28816</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 164a14          
+                             ntdll 0x00007ffbcd240000 + 98273           
+                        KERNELBASE 0x00007ffbca440000 + de298           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 136a8b9         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125f595         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 13e16c7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31920</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18028</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33656</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25648</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db6be         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24160</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 16953d1         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31764</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 134eae9         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27176</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>                            win32u 0x00007ffbca850000 + 1344            
+                            USER32 0x00007ffbccdc0000 + 32812           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 16c5f60         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17304</ThreadID>
+<ThreadName>WindowsRawInputThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33396</ThreadID>
+<ThreadName>Background Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125803f         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c1a90         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33140</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 142ffff         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 76b22ce         
+                      VCRUNTIME140 0x00007ffbaeaa0000 + 1a9c0           
+                             ntdll 0x00007ffbcd240000 + 1654ff          
+                             ntdll 0x00007ffbcd240000 + cbd25           
+                             ntdll 0x00007ffbcd240000 + 164e3e          
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 4cbce2f         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba80e4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba4f22         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125e0af         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141b32e         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141b27d         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141bd98         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 141bca8         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3ba6b79         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 344d228         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b65e70         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3b7103c         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32ad1d7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1251a88         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 125e0af         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1258051         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c18f9         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c1af7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>25436</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 161444          
+                             ntdll 0x00007ffbcd240000 + d3924           
+                        KERNELBASE 0x00007ffbca440000 + 8bb01           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 143366c         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 32c1bd7         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17288</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30312</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30524</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30504</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19656</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3088</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17372</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33336</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13472</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28620</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24780</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29480</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27628</ThreadID>
+<ThreadName>Background Worker #14</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14260</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124ef13         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12603a2         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 124b16a         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 12db8b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32120</ThreadID>
+<ThreadName>Background Worker #15</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 14ea961         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 14ea934         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1639269         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19488</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 161444          
+                             ntdll 0x00007ffbcd240000 + d3924           
+                        KERNELBASE 0x00007ffbca440000 + 8bb01           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 143366c         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 3228805         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28168</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 2175707         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11888</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 463a9b4         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17040</ThreadID>
+<ThreadName>WasapiServiceWatcher</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 160e44          
+                        KERNELBASE 0x00007ffbca440000 + 1be9f           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1434c85         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 21759c5         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 217587e         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26100</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>                             ntdll 0x00007ffbcd240000 + 161914          
+                        KERNELBASE 0x00007ffbca440000 + 22773           
+                        KERNELBASE 0x00007ffbca440000 + 22641           
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 463a887         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1437237         
+ TerraDyneOSS_Proto-Win64-Shipping 0x00007ff68c650000 + 1436a8f         
+                          KERNEL32 0x00007ffbcc060000 + 2cd87           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>24272</ThreadID>
+<ThreadName>AudioDeviceThread(1)</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<IsUsingBatterySaver>false</IsUsingBatterySaver>
+<HostArchitecture>x64</HostArchitecture>
+<IsDeviceHandheld>false</IsDeviceHandheld>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Aftermath>false</RHI.Aftermath>
+<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3060</RHI.AdapterName>
+<RHI.UserDriverVersion>616.56</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.16.1656</RHI.InternalDriverVersion>
+<RHI.DriverDate>8-20-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<RHI.IgnoredSM5Preference>False</RHI.IgnoredSM5Preference>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2487</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
