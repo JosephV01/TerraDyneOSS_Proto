@@ -1,0 +1,130 @@
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Saved\Cooked\Windows\TerraDyneOSS_Proto\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogConfig: Display: Read in platform Windows ini files took 0.02 seconds
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Container metadata disabled
+LogIoStore: Display: Using command list file: 'C:\Users\sahel\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/sahel/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog TerraDyneOSS_Proto.3acd0ff5 / Windows
+LogIoStore: Display: Fetched 519 oplog items from Zen in 0.94 seconds
+LogIoStore: Display: Parsed 519 oplog items 0.01 seconds, 3418 chunks
+LogIoStore: Display: Loaded 557 chunk hashes from Zen in 0.00 seconds, 557 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Saved\Cooked\Windows'
+LogIoStore: Display: Found '4' files
+LogIoStore: Display: Creating container targets...
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogIoStore: Display: Shader library chunk override is disabled
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 382 groups (158 of them didn't need new indices), average uncompressed size 141073 bytes, min 249 bytes, max 1038208 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3926 shaders as 382 groups. Library size changed from 11885 KB (4.43 : 1 ratio) to 5221 KB (10.08 : 1 ratio), 43.93% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'Global-PCD3D_SM5-PCD3D_SM5' with ChunkId 'c3fad98e7ca0cc3100000008' for target file 'C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Saved/Cooked/Windows/TerraDyneOSS_Proto/Content/ShaderArchive-Global-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 177 groups (78 of them didn't need new indices), average uncompressed size 92941 bytes, min 502 bytes, max 971733 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: TerraDyneOSS_Proto-PCD3D_SM5(PCD3D_SM5): Recompressed 1349 shaders as 177 groups. Library size changed from 4438 KB (3.62 : 1 ratio) to 1882 KB (8.53 : 1 ratio), 42.42% of previous.
+LogIoStore: Display: Save IoStoreShaderCodeArchive 'TerraDyneOSS_Proto-PCD3D_SM5-PCD3D_SM5' with ChunkId '8f7e013b545f366c00000008' for target file 'C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Saved/Cooked/Windows/TerraDyneOSS_Proto/Content/ShaderArchive-TerraDyneOSS_Proto-PCD3D_SM5-PCD3D_SM5.ushaderbytecode'
+LogIoStore: Display: Shaders processed in 0.12 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=10 (20 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 516 packages using fallback bundle order
+LogIoStore: Display: Disabled WriteRequestManager memory throttling, MaxConcurrentSourceReads=10 (20 cores)
+LogIoStore: Display: Writing container(s)...
+LogIoStore: Display: Writing and compressing took 0.27 seconds, writes to disk took 0.10 seconds for 138,076,736 bytes @ 1,440,861,364 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: TerraDyneOSS_Proto-Windows: Found perfect hashmap for 1119 items.
+LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 129,912 bytes, 18,381,863 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 564 MiB, Virtual: 3311 MiB]
+LogIoStore: Display: 557 / 1,120 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     ExportBundleData           516
+LogIoStore: Display:     BulkData                   41
+LogIoStore: Display: 557 / 1,120 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           516 / 516
+LogIoStore: Display:     BulkData                   41 / 41
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display:     ShaderCodeLibrary          0 / 2
+LogIoStore: Display:     ShaderCode                 0 / 559
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                        183,996,952
+LogIoStore: Display:         ExportBundleData        165,547,476 bytes over 516 reads
+LogIoStore: Display:         BulkData                 18,449,476 bytes over 41 reads
+LogIoStore: Display:     Loose File:                           0
+LogIoStore: Display:     Memory:                      14,850,264
+LogIoStore: Display:         ShaderCodeLibrary           301,800 bytes over 4 reads
+LogIoStore: Display:         ShaderCode               14,548,464 bytes over 1,118 reads
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display: 
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display: 
+LogIoStore: Display:                      Container      Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                         global  -/-/-/-/-               1            0.78                 3.12                 3.12 -
+LogIoStore: Display:     TerraDyneOSS_Proto-Windows  C/-/-/I/-            1119          126.09               183.18               128.56 (29.82% Oodle)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                          Total                       1120          126.87               186.30               131.68
+LogIoStore: Display: 
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display: 
+LogIoStore: Display: Compression block padding:     0.61 MiB
+LogIoStore: Display: 
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display: 
+LogIoStore: Display:                      Container      Size (KiB)
+LogIoStore: Display: ----------------------------------------------
+LogIoStore: Display:                         global            0.00
+LogIoStore: Display:     TerraDyneOSS_Proto-Windows           27.94
+LogIoStore: Display: 
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display: 
+LogIoStore: Display:                      Container          Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display:                         global                1                0                0             0.00             0.00
+LogIoStore: Display:     TerraDyneOSS_Proto-Windows             1119                0             1119             0.00           127.95
+LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: 
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display: 
+LogIoStore: Display:                      Container      Size (KiB)      Packages #     Localized #
+LogIoStore: Display: ------------------------------------------------------------------------------
+LogIoStore: Display:     TerraDyneOSS_Proto-Windows              13             516               0
+LogIoStore: Display: ------------------------------------------------------------------------------
+LogIoStore: Display:                          Total              13             516               0
+LogIoStore: Display: 
+LogIoStore: Display: 
+LogIoStore: Display: Input:       516 Packages
+LogIoStore: Display: Input:         0   B UExp
+LogIoStore: Display: Input:    157.88 MiB UAsset
+LogIoStore: Display: Input:     17.59 MiB UBulk
+LogIoStore: Display: Input:      5.10 MiB for 382 Global shaders
+LogIoStore: Display: Input:    304.44 KiB for 82 Shared shaders
+LogIoStore: Display: Input:         0   B for 0 Unique shaders
+LogIoStore: Display: Input:      1.54 MiB for 95 Inline shaders
+LogIoStore: Display: 
+LogIoStore: Display: Output:      533 Imported package entries
+LogIoStore: Display: Output:      326 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     3.12 MiB InitialLoadData
+LogIoStore: Display: 
+LogIoStore: Display: Success
+LogPakFile: Display: UnrealPak executed in 1.452013 seconds
+

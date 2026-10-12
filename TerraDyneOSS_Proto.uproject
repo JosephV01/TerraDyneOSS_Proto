@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "Experimental",
+	"Description": "Isolated TerraDyne OSS 270c311 compile and measurement host. Not GardenFervor.",
+	"Modules": [
+		{
+			"Name": "TerraDyneOSS_Proto",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "TerraDyne",
+			"Enabled": true
+		}
+	]
+}

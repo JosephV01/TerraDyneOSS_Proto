@@ -1,0 +1,74 @@
+# =============================================================================
+# TerraDyneOSS_Proto — Unreal / local / unsafe-for-public defaults
+# Disk files are preserved; this only controls Git tracking.
+# See Documentation/Audits/PUBLICATION_CONTROL.md
+# =============================================================================
+
+# --- Engine build / local generated (never publish) ---
+Binaries/
+Intermediate/
+DerivedDataCache/
+Build/
+Saved/
+Packaged/
+
+# Plugin build artefacts (sources under Plugins/TerraDyne/Source remain trackable)
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/DerivedDataCache/
+
+# --- OS / IDE ---
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.VC.db
+*.opensdf
+*.sdf
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+CrashReportClient/
+
+# --- Sensitive / local-only (confirmed present under Saved/; keep ignored) ---
+**/ue.projectstore
+**/ue.projectstore.*
+**/Credentials/
+**/*password*
+**/*secret*
+**/*.pem
+**/*.p12
+**/*.pfx
+
+# --- Third-party commercial content: NOT published until redistribution is authorized ---
+# Magic Map Material (M4) ~4 GB; Fab/Marketplace redistribution rights unclear for a PUBLIC repo.
+# Local copy remains on disk for investigations. Publish only after explicit human authorization.
+Content/M4/
+
+# Optional: large cooked/shared map sidecars if ever moved outside Content/M4
+*_BuiltData.uasset
+
+# --- Git LFS candidates (excluded for now; re-evaluate if intentionally published) ---
+# *.ucas
+# *.pak
+# *.utoc
+# *.uasset  (do NOT globally ignore — Demo/ plugin content may need tracking)
+
+# Keep Results documentation and small evidence; ignore huge binary dumps if added later
+Results/**/*.ucas
+Results/**/*.pak
+Results/**/*.exe
+Results/**/*.dll
+Results/**/*.pdb
+Results/**/*.zip
+Results/**/*.7z
+Results/**/*.rar

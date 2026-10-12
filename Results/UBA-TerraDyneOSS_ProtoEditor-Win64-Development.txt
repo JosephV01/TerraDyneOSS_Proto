@@ -1,0 +1,189 @@
+Log started at 10/12/2026 02:25:48 (2026-10-12T00:25:48Z)
+No project argument provided while trying to parse Project File. Attempting fallback parsing to attempt to find a Project File.
+-Target argument detected in original command line args. Will attempt to subparse in search of ProjectFile.
+Resolved project argument C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject to C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject
+-Target argument detected in original command line args. Will attempt to subparse in search of ProjectFile.
+Resolved project argument C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject to C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject
+Resolved project argument C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject to C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/TerraDyneOSS_Proto.uproject through -Target resolution.
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\sahel\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\sahel\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\sahel\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Intermediate\Build\XmlConfigCache.bin): C:\Users\sahel\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Intermediate\Build\XmlConfigCache.bin): C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Intermediate\Build\XmlConfigCache.bin): C:\Users\sahel\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\sahel\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\UBA-TerraDyneOSS_ProtoEditor-Win64-Development.txt
+
+Setting temp directory to 'C:\Users\sahel\AppData\Local\Temp\UnrealBuildTool\eb6d2d82'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.28000.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.28000.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" "-Target=TerraDyneOSS_ProtoEditor Win64 Development -Project=\"C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject\"" "-Target=TerraDyneOSS_Proto Win64 Shipping -Project=\"C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\TerraDyneOSS_Proto.uproject\"  -remoteini=\"C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\"  " "-log=C:\Users\sahel\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.8\UBA-TerraDyneOSS_ProtoEditor-Win64-Development.txt"
+Determining max actions to execute in parallel (12 physical cores, 20 logical cores)
+  Executing up to 12 processes, one per physical core
+Creating makefile for TerraDyneOSS_Proto (no existing makefile)
+UbaStorageServer - Database loaded from C:\ProgramData\Epic\UnrealBuildAccelerator\cas\casdb (v32) in <1ms (contained 0 entries estimated to 0b)
+UbaServer - Listening on 0.0.0.0:1345
+Skipping C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Building UnrealEditor - TerraDyneOSS_ProtoEditor - Win64 - Development
+Generated code is up to date.
+Compiler: C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cl.exe
+Linker: C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Library Manager: C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
+Resource Converter: C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\cvtres.exe
+Using EngineIncludeOrderVersion.Unreal5_8 for target TerraDyneOSS_Proto.Target.cs
+Building UnrealGame - TerraDyneOSS_Proto - Win64 - Shipping
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: 'C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\VerseVMBytecode\VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\VerseVMBytecode\VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\VerseVMBytecode\VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'C:\Program Files\Epic Games\UE_5.8\Engine\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\VerseVMBytecode\VVMCaptureSwitch.gen.h'
+Generated code is up to date.
+Found 4 shared PCH headers (listed in order of preference):
+	Engine
+	Slate
+	CoreUObject
+	Core
+Checking for live coding mutex: Global\LiveCoding_C++Program Files+Epic Games+UE_5.8+Engine+Binaries+Win64+UnrealEditor.exe
+Checking for live coding mutex: Global\LiveCoding_C++Users+sahel+Documents+Unreal Projects+TerraDyneOSS_Proto_270c311+Binaries+Win64+TerraDyneOSS_Proto-Win64-Shipping.exe
+Building TerraDyneOSS_ProtoEditor and TerraDyneOSS_Proto...
+===== Toolchain Information =====
+TerraDyneOSS_ProtoEditor Win64 Development:
+  Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+  Using Visual Studio 14.44.35229 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from TerraDyneEditor unity file: TerraDyneEditorModule.cpp, TerraDyneBaker.cpp, TerraDyneFactory.cpp, STerraDyneSetupWizard.cpp
+TerraDyneOSS_Proto Win64 Shipping:
+  Using ISPC compiler (C:\Program Files\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2) 
+  Using Visual Studio 14.44.35229 toolchain (C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+=================================
+Using Unreal Build Accelerator local executor to run 48 action(s)
+  CPU 12 physical cores, 20 logical cores
+  Memory 31.74 GB physical, 33.27 GB/44.24 GB committed
+  UBA Storage capacity 40 GB
+  UBA RootDir C:\ProgramData\Epic\UnrealBuildAccelerator
+Cache bucket 3302846635 used. Action: Compile [x64] SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.cpp (TerraDyneOSS_Proto-Win64-Shipping)
+Cache bucket 1256003985 used. Action: Compile Resource [x64] TerraDyneOSS_Proto-Win64-Shipping-Default.rc2 (TerraDyneOSS_Proto-Win64-Shipping)
+Cache bucket 3513472348 used. Action: Compile [x64] Module.TerraDyneOSS_Proto.gen.cpp (TerraDyneOSS_Proto-Win64-Shipping)
+Cache bucket 2024646911 used. Action: Compile [x64] TerraDyneDemoHUD.cpp (TerraDyneOSS_Proto-Win64-Shipping)
+Cache bucket 3897781166 used. Action: Link [x64] TerraDyneOSS_Proto-Win64-Shipping.exe (TerraDyneOSS_Proto-Win64-Shipping)
+All processes queued
+** For TerraDyneOSS_Proto-Win64-Shipping **
+[1/48] Copy TerraDyneOSS_Proto-Win64-Shipping-Default.rc2
+[2/48] Compile Resource [x64] TerraDyneOSS_Proto-Win64-Shipping-Default.rc2
+[3/48] Compile [x64] SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.cpp
+[4/48] Compile [x64] Module.TerraDyneOSS_Proto.gen.cpp
+[5/48] Compile [x64] TerraDyneDemoHUD.cpp
+[6/48] Compile [x64] TerraDyneDemoPaintStore.cpp
+[7/48] Compile [x64] TerraDyneDemoPlayerController.cpp
+[8/48] Compile [x64] TerraDyneDemoUnit.cpp
+[9/48] Compile [x64] TerraDyneGardenDemoGameMode.cpp
+[10/48] Compile [x64] TerraDyneGardenDemoHost.cpp
+[11/48] Compile [x64] TerraDyneOSS_Phase2BGameMode.cpp
+[12/48] Compile [x64] TerraDyneOSS_Proto.cpp
+[13/48] Compile [x64] TerraDyneOSS_ProtoGameMode.cpp
+[14/48] Compile [x64] Module.TerraDyne.gen.cpp
+[15/48] Compile [x64] STerraDynePanel.cpp
+[16/48] Compile [x64] TerraDyneAsyncSaver.cpp
+[17/48] Compile [x64] TerraDyneBasicTests.cpp
+[18/48] Compile [x64] TerraDyneChunk.cpp
+[19/48] Compile [x64] TerraDyneCollision.cpp
+[20/48] Compile [x64] TerraDyneDemoMarkerActor.cpp
+[21/48] Compile [x64] TerraDyneDemoSimulationTest.cpp
+[22/48] Compile [x64] TerraDyneEditController.cpp
+[23/48] Compile [x64] TerraDyneEditControllerPIETests.cpp
+[24/48] Compile [x64] TerraDyneFunctionalTests.cpp
+[25/48] Compile [x64] TerraDyneGrassSystem.cpp
+[26/48] Compile [x64] TerraDyneGrassTypes.cpp
+[27/48] Compile [x64] TerraDyneLandscapeAssetSet.cpp
+[28/48] Compile [x64] TerraDyneManager.cpp
+[29/48] Compile [x64] TerraDyneMeshUtils.cpp
+[30/48] Compile [x64] TerraDyneMigrationTests.cpp
+[31/48] Compile [x64] TerraDyneModule.cpp
+[32/48] Compile [x64] TerraDyneOrchestrator.cpp
+[33/48] Compile [x64] TerraDynePaintGrassTests.cpp
+[34/48] Compile [x64] TerraDyneProductionHardeningTests.cpp
+[35/48] Compile [x64] TerraDyneProjectile.cpp
+[36/48] Compile [x64] TerraDyneReplicationComponent.cpp
+[37/48] Compile [x64] TerraDyneSceneSetup.cpp
+[38/48] Compile [x64] TerraDyneSerializer.cpp
+[39/48] Compile [x64] TerraDyneSettings.cpp
+[40/48] Compile [x64] TerraDyneStreamingTest.cpp
+[41/48] Compile [x64] TerraDyneSubsystem.cpp
+[42/48] Compile [x64] TerraDyneTileData.cpp
+[43/48] Compile [x64] TerraDyneToolWidget.cpp
+[44/48] Compile [x64] TerraDyneUndoTests.cpp
+[45/48] Compile [x64] TerraDyneWorldFrameworkTests.cpp
+[46/48] Compile [x64] TerraDyneWorldPreset.cpp
+[47/48] Link [x64] TerraDyneOSS_Proto-Win64-Shipping.exe
+   Création de la bibliothèque C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Binaries\Win64\TerraDyneOSS_Proto-Win64-Shipping.lib et de l'objet C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Binaries\Win64\TerraDyneOSS_Proto-Win64-Shipping.exp
+[48/48] WriteMetadata TerraDyneOSS_Proto-Win64-Shipping.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 248.65 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+Output binary: C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Binaries\Win64\TerraDyneOSS_Proto-Win64-Shipping.exe
+UbaStorageServer - Database saved in 1ms (0 file entries, 0 cas entries. deleted 0 dropped cas files)
+WriteFileIfChanged() wrote 0 changed files of 1 requested writes.
+
+Timeline:
+[  0.000]  +0.342 Main
+   0.013          [  0.013]  +0.095 Apply XmlConfig
+   0.022             0.022          [  0.008]  +0.008 Find target files
+   0.116          [  0.116]  +0.100 AddTelemetry
+   0.236          [  0.235]  +0.106 RegisterPlatforms
+[  0.357]  +0.026 ParseCommandLine
+[  0.429]  +0.155 LoadMakefile
+   0.509          [  0.079]  +0.033 EngineRulesPlugins
+   0.545          [  0.115]  +0.003 EngineRulesFetchDirs
+   0.555          [  0.125]  +0.009 EngineRulesAssembly
+   0.564          [  0.134]  +0.000 ProgramRulesAssembly
+   0.569          [  0.139]  +0.002 ProjectRulesAssembly
+   0.572          [  0.142]  +0.255 CreateTargetRules
+   0.572             0.142          [  0.000]  +0.254 CreateTargetRules
+[  0.585]  +0.297 <unknown>
+[  0.882]  +0.003 CppDependencyCache
+   0.882          [  0.000]  +0.006 CppDependencyCache
+[  0.901]  +0.050 TerraDyneOSS_ProtoEditor Win64 Development
+   0.901          [  0.000]  +1.504 TerraDyneOSS_Proto Win64 Shipping
+   0.953             0.051          [  0.051]  +0.021 UHTWait
+   0.975             0.073          [  0.073]  +0.281 <unknown>
+   1.257             0.355          [  0.355]  +0.029 UHTModules
+   1.342             0.440          [  0.440]  +0.001 UHTManifest
+   1.343             0.441          [  0.441]  +0.005 UHTTimestamps
+   1.348             0.446          [  0.446]  +1.055 <unknown>
+   2.404             1.502          [  1.502]  +0.000 WaitOnWrites
+[  0.952]  +1.454 <unknown>
+[  2.406]  +0.000 UHTWait
+   2.406          [  0.000]  +0.039 SavingMakefile
+   2.425             0.019          [  0.018]  +0.002 CppDependencyCache
+   2.428             0.021          [  0.021]  +0.000 CppDependencyCache
+   2.428             0.021          [  0.021]  +0.093 Preparing ActionGraph
+[  2.534]  +0.131 GarbageCollect
+[  2.666]+248.523 <unknown>
+[251.189]  +0.000 Deploying targets
+[251.191]  +0.000 DisconnectCache
+[251.198]  +0.218 SaveCasTable
+[251.419]  +0.016 Saving caches
+[251.436]  +0.002 TelemetryService.FlushEvents
+[251.440]
+
+Result: Succeeded
+Total execution time: 251.44 seconds

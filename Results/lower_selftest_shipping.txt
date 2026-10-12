@@ -1,0 +1,6 @@
+T0 center Base=0.000000 Sculpt=0.000000 Height=0.000000 WorldZ=0.000 ZScale=3000.0
+PASS A Lower x3 intact  WorldZ 0.000 -> -1039.486  Height=-0.347478 Sculpt=-0.347478
+PASS B Raise then Lower past T0  T0=0.000 raised=346.495 after3Lower=-692.990 Height=-0.231652
+PASS C Lower then Raise above T0  T0=0.000 lowered=-346.495 raised=346.495 Height=0.115826
+PASS D repeated Lower deepens  0.000 -> -346.495 -> -692.990 -> -1039.486
+PASS E Lower other intact point  WorldZ 0.000 -> -347.055 Height=-0.116339

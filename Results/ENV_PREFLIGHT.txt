@@ -1,0 +1,28 @@
+TerraDyne OSS isolated prototype — environment preflight
+Date: 2026-10-11
+
+Reference commit requested: 270c31117e20e491ef5333dd7e2f9dc133fcdc38
+Clone inspected: C:\Users\sahel\AppData\Local\Temp\TerraDyne_audit
+Clone HEAD: 270c31117e20e491ef5333dd7e2f9dc133fcdc38
+Clone branch: main
+Clone remote: https://github.com/gregorik/TerraDyne.git
+Working tree: clean
+OSS VersionName: 0.4
+uplugin EngineVersion: 5.7.0
+PlatformAllowList: Win64
+Required plugin: GeometryScripting
+VHM in uplugin/Build.cs: absent
+Shader header Shaders/TerraDyneSimulationShader.h: ABSENT from OSS tree
+Chunk.cpp includes that header unconditionally (line 13)
+
+Host engine:
+  Path: C:\Program Files\Epic Games\UE_5.8
+  Build.version: 5.8.3 (changelist 58210709, branch ++UE5+Release-5.8)
+  Version.h: ENGINE_MAJOR=5 MINOR=8 PATCH=3
+
+GardenFervor:
+  Not used. HEAD observed only: c10126178f524432a9459cf551f12efd0175dab0
+  Isolated project is a sibling directory, not inside GardenFervor.
+
+Plugin copy SHA256(TerraDyne.uplugin) matches source clone.
+No plugin source edits applied.

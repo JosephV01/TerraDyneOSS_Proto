@@ -1,0 +1,72 @@
+==== D3D12_PCallStack_and_crashed_worker ====
+0x04cbce2f  FBaseDynamicMeshSceneProxy::GetDynamicMeshElements+0x1bf
+0x03ba80e4  FDynamicMeshElementContext::GatherDynamicMeshElementsForPrimitive+0x184
+0x03ba4f22  TRDGLambdaPass<FDownsampleDepthPS::FParameters,`AddDrawScreenPass<FDownsampleDepthPS>'::`2'::<lambda_1> >::Execute+0x262
+0x0125e0af  UE::Tasks::Private::FTaskBase::TryExecuteTask+0x6f
+0x0124e640  LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask * __ptr64 __cdecl(bool),48>::TTaskDelegateImpl<`LowLevelTasks::FTask::Init<`UE::Tasks::Private::FTaskBase::Init'::`2'::<lambda_1> >'::`5'::<lambda_1>,0>::CallAndMove+0x30
+0x01251d5c  LowLevelTasks::FTask::ExecuteTask+0x6c
+0x01260190  LowLevelTasks::FScheduler::WorkerLoop+0x1c0
+0x0124b16a  operator<<+0x1ba
+0x012db8b4  FThreadImpl::Run+0x24
+0x01437237  FRunnableThreadWin::Run+0x37
+0x01436a8f  FRunnableThreadWin::GuardedRun+0x7f
+0x0142ffff  ReportCrash+0xef
+0x076b15ae  _guard_xfg_dispatch_icall_nop+0xce
+
+==== D3D11_RenderThread ====
+0x04cbce2f  FBaseDynamicMeshSceneProxy::GetDynamicMeshElements+0x1bf
+0x03ba80e4  FDynamicMeshElementContext::GatherDynamicMeshElementsForPrimitive+0x184
+0x03ba4f22  TRDGLambdaPass<FDownsampleDepthPS::FParameters,`AddDrawScreenPass<FDownsampleDepthPS>'::`2'::<lambda_1> >::Execute+0x262
+0x0125e0af  UE::Tasks::Private::FTaskBase::TryExecuteTask+0x6f
+0x0141b32e  UE::Tasks::Private::FTaskBase::TryRetractAndExecute+0x20e
+0x0141b27d  UE::Tasks::Private::FTaskBase::TryRetractAndExecute+0x15d
+0x0141bd98  UE::Tasks::Private::FTaskBase::WaitImpl+0x48
+0x0141bca8  UE::Tasks::Private::FTaskBase::Wait+0xe8
+0x03ba6b79  FVisibilityTaskData::FinishGatherDynamicMeshElements+0x49
+0x0344d228  FDeferredShadingSceneRenderer::Render+0x1128
+0x03b65e70  TGlobalResource<FSceneTextureExtracts,1>::`vector deleting destructor'+0x110
+0x03b7103c  FViewInfo::~FViewInfo+0x318c
+0x032ad1d7  `FRenderCommandPipeRegistry::StopRecording'::`2'::<lambda_1>::operator()+0x557
+0x01251a88  TGraphTask<TFunctionGraphTaskImpl<void __cdecl(void),1> >::ExecuteTask+0x48
+0x01258051  FNamedTaskThread::ProcessTasksUntilQuit+0x101
+0x032c18f9  RenderingThreadMain+0xb9
+0x032c1af7  FRenderingThread::Run+0x37
+0x01437237  FRunnableThreadWin::Run+0x37
+0x01436a8f  FRunnableThreadWin::GuardedRun+0x7f
+
+==== D3D12_GameThread_snapshot ====
+0x01b5e073  UE::Geometry::TDynamicMeshOverlay<float,2>::InternalSetTriangle+0x53
+0x01b7e0d2  UE::Geometry::TDynamicMeshOverlay<float,2>::SetTriangle+0x112
+0x04f8adee  `ATerraDyneGardenDemoHost::RecolorMeshFromPaint'::`2'::<lambda_2>::operator()+0x3de  [C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Source\TerraDyneOSS_Proto\TerraDyneGardenDemoHost.cpp:403]
+0x04cb9a2b  UDynamicMesh::EditMeshInternal+0x5b
+0x04cb985a  UDynamicMesh::EditMesh+0x4a
+0x04f8bb26  ATerraDyneGardenDemoHost::RecolorMeshFromPaint+0x146  [C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Source\TerraDyneOSS_Proto\TerraDyneGardenDemoHost.cpp:411]
+0x04f8c856  ATerraDyneGardenDemoHost::Tick+0x16  [C:\Users\sahel\Documents\Unreal Projects\TerraDyneOSS_Proto_270c311\Source\TerraDyneOSS_Proto\TerraDyneGardenDemoHost.cpp:41]
+0x025c0d6a  AActor::TickActor+0x2a
+0x025adddb  FActorTickFunction::ExecuteTick+0x8b
+0x0310d9cc  TGraphTask<FTickFunctionTask>::ExecuteTask+0xec
+0x0125e0af  UE::Tasks::Private::FTaskBase::TryExecuteTask+0x6f
+0x01257f0f  FNamedTaskThread::ProcessTasksUntilIdle+0x4f
+0x0125827c  FTaskGraphCompatibilityImplementation::ProcessUntilTasksComplete+0x16c
+0x03119b47  FTickTaskSequencer::ReleaseTickGroup+0x3e7
+0x0311e67e  FTickTaskManager::RunTickGroup+0x6e
+0x02bc18bc  UWorld::Tick+0x89c
+0x02a1221c  UGameEngine::Tick+0x2cc
+0x04646ed4  FEngineLoop::Tick+0x7c4
+0x0463effc  GuardedMain+0x2cc
+0x0463f06a  GuardedMainWrapper+0x1a
+0x046404c3  LaunchWindowsStartup+0x143
+0x04647c44  WinMain+0x14
+0x0769f472  __scrt_common_main_seh+0x106  [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+
+==== D3D12_ForegroundWorker0_nv_path ====
+0x043e76bc  FD3D12CommandList::Reset+0x3c
+0x0440e832  FD3D12Device::ObtainCommandList+0xa2
+0x043df541  FD3D12CommandContext::OpenCommandList+0x51
+0x0440c91d  FD3D12LegacyBarriersForContext::HandleResourceTransitions+0x10d
+0x04408895  FD3D12LegacyBarriersForContext::EndTransitions+0x355
+0x043e2f35  FD3D12CommandContext::RHIEndTransitions+0x25
+0x0332a25d  FRHICommandEndTransitions::Execute+0x2d
+0x0332214f  FGraphicsPipelineStateInitializer::operator==+0x66f
+0x0332a869  FRHICommandListExecutor::FTaskPipe::Execute+0x1a9
+0x0332af0b  TGraphTask<TFunctionGraphTaskImpl<void __cdecl(enum ENamedThreads::Type,TRefCountPtr<FBaseGraphTask> const & __ptr64),0> >::ExecuteTask+0x5b

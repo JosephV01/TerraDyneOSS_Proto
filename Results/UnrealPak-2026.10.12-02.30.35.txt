@@ -1,0 +1,35 @@
+OodleDataCompression: Display: Oodle v2.9.16 format for pak/iostore with method=Kraken, level=4=Normal
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogPakFile: Display: ProjectDir: ../../../../../../Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/sahel/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Launching executable 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe', working dir 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install', data dir 'C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir C:\Users\sahel\AppData\Local\UnrealEngine\Common\Zen\Data --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --cache-bucket-limit-overwrites --quiet --restrict-content-types --allow-external-oidctoken-exe=false --plugins-config "C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugins_v1.json" --security-config-path "C:/Users/sahel/AppData/Local/UnrealEngine/Common/Zen/Install/security-config.json" --owner-pid 2784  --child-id Zen_2784_Startup'
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogZenStore: Display: Opening oplog TerraDyneOSS_Proto.3acd0ff5 / Windows
+LogIoStore: Display: Fetched 519 oplog items from Zen in 3.25 seconds
+LogIoStore: Display: Parsed 519 oplog items 0.01 seconds, 3418 chunks
+LogIoStore: Display: Loaded 557 chunk hashes from Zen in 0.04 seconds, 557 hashes updated in 0.00 seconds
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_TerraDyneOSS_Proto-Windows.txt
+LogPakFile: Display: Added 1741 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1741 files in 0.01s.
+LogPakFile: Display: Creating pak C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Saved/StagedBuilds/Windows/TerraDyneOSS_Proto/Content/Paks/TerraDyneOSS_Proto-Windows.pak.
+LogPakFile: Display: Created pak file: C:/Users/sahel/Documents/Unreal Projects/TerraDyneOSS_Proto_270c311/Saved/StagedBuilds/Windows/TerraDyneOSS_Proto/Content/Paks/TerraDyneOSS_Proto-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 405 files, 24061159 -> 9206320 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1336 files, 783998 -> 783998 bytes
+LogPakFile: Display: Added 1741 files, 10656495 bytes total
+LogPakFile: Display: PrimaryIndex size: 24006 bytes
+LogPakFile: Display: PathHashIndex size: 55081 bytes
+LogPakFile: Display: FullDirectoryIndex size: 58166 bytes
+LogPakFile: Display: Compression summary: 38.26% of original size. Compressed Size 9206320 bytes, Original Size 24061159 bytes. 
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display: 
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 4.050316 seconds
+
